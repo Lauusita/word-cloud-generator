@@ -49,7 +49,7 @@ jobs:
         uses: docker/metadata-action@v4
         with:
           images: |
-            wickett/word-cloud-generator
+            lausitaa/word-cloud-generator-vlau
           tags: |
             # set latest tag for master branch
             type=raw,value=latest,enable=${{ github.ref == format('refs/heads/{0}', 'master') }}
